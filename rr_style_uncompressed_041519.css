@@ -1,5 +1,5 @@
 /*
-  * Riley Rose Common v1.1.1 04/15/2019 - Version 1
+  * Riley Rose Common v1.1.1 05/24/2019 - Version 1
   * Copyright Riley Rose
   * Updated by Namhee & Eunice & Eve
   * Old Menu
@@ -4244,10 +4244,60 @@ div[class^="search_suggestion"] {
     }
 }
 
+
+
+  /* ======================================================= */
+  /* New HP Kicker's copy sizings.  05/24/2018 added by Eve  */
+  /*=========================================================*/
+  @media(min-width:768px) and (max-width:1024px){
+   .t_small_kicker {
+        font-size: 80% !important;
+    } 
+  }
+  
+  
+  @media(min-width: 1024px) and (max-width:1200px) {
+    .t_small_kicker {
+        font-size: 110% !important;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .sm_font {
+        font-size: 90% !important;
+    }
+  }
+
+
+  /* ===================================================== */
+  /*  New HP Responisve for mobile 05/24/2018 added by Eve */
+  /*=======================================================*/
+  .show_mobile_new {
+    display: block;
+  }
+  
+  .show_desktop_new {
+    display: none;
+  }
+
+  
+  
+
 /* ============================== */
 /* Small Desktop Code             */
 /*================================*/
 @media (min-width:768px) {
+	/* ==================================================== */
+    /*  New HP Responisve for mobile 05/24/2018 added by Eve */
+    /*======================================================*/
+    .show_mobile_new {
+        display: none;
+    }
+  
+    .show_desktop_new {
+        display: block;
+    }
+  
     /* ============================== */
     /* Layout Code                    */
     /*================================*/
