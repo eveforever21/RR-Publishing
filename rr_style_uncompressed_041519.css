@@ -1,5 +1,5 @@
 /*
-  * Riley Rose Common v1.1.1 05/24/2019 - Version 1
+  * Riley Rose Common v1.1.1 06/24/2019 - Version 1
   * Copyright Riley Rose
   * Updated by Namhee & Eunice & Eve
   * Old Menu
@@ -995,6 +995,11 @@ div[class^="hp_"] {
     color: #f486b7;
 }
 
+/* Promotion Popup  06/24/2018 added by Eve  */
+.t_mid_pink{
+    color: #E74590;
+}
+
 .t_black {
     color: #111;
 }
@@ -1034,6 +1039,11 @@ div[class^="hp_"] {
 
 .bg_light_pink {
     background: #fef3f6;
+}
+
+/* Promotion Popup  06/24/2018 added by Eve  */
+.bg_mid_pink{
+    background: #FBD3DB;
 }
 
 .bg_pink {
